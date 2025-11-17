@@ -1,5 +1,6 @@
 import express from 'express';
 import CreditTransaction from '../../models/CreditTransaction.js';
+import Streamer from '../../models/Streamer.js';
 import { authenticateToken } from '../middleware/auth.js';
 import CreditService from '../../services/CreditService.js';
 
